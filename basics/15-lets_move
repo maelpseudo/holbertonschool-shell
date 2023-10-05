@@ -1,2 +1,2 @@
 #!/bin/bash
-find -name '[A-Z]*' -exec mv {} ~/tmp/{} \;
+mv -name *'[A-Z]*' /tmp/
